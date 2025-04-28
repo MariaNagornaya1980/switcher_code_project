@@ -149,7 +149,6 @@ body {
   width: 100%;
   top: 0;
   left: 0;
-  /*background: linear-gradient(180deg, #000000, #181818);*/
   z-index: -1;
 }
 
@@ -296,7 +295,7 @@ pre[class*="language-"].line-numbers > code {
   top: 0;
   font-size: 100%;
   left: -3.8em;
-  width: 3em; /* works for line-numbers below 1000 lines */
+  width: 3em;
   letter-spacing: -1px;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -543,7 +542,6 @@ button.container_button-view-docs span {
   .header_auth {
     display: flex;
     flex-wrap: wrap;
-    /*flex-direction: row;*/
   }
 
   .header_title {
@@ -572,7 +570,6 @@ button.container_button-view-docs span {
 .open-source-section {
   text-align: center;
   padding: 50px 20px;
-  /*background: linear-gradient(180deg, #000000, #0b0b0b);*/
   width: 100%;
   margin: 0 auto;
   z-index: 1;
